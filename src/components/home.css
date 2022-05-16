@@ -1,0 +1,313 @@
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+
+
+
+.gifYap{
+      
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}.gif{
+        margin-bottom: 10px !important;
+        max-width: 400px !important;
+}
+
+.gifYap2{
+      
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}
+.gif2{
+        margin-bottom: 150px !important;
+        width:320px;
+}
+
+.device{
+        z-index: 999 !important;
+        
+}
+.mainPanel{
+        background-image: url(../img/1.jpeg);
+        background-position:bottom ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        height: 100vh;
+}
+.icerik{
+            border-bottom: 15px solid #222;
+}
+.tvPanel{
+          border-bottom: 15px solid #222;
+          padding: 0px !important;
+}
+
+.icerik::before{
+        content: "" !important;
+        position: absolute !important;
+        background-color: rgb(14, 12, 12) !important;
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 1 !important;
+        opacity: 0.7;
+}
+.contentMain{
+        z-index: 1 !important;
+}
+.mainText{
+        font-size: 8vh !important;
+        font-family: "poppins";
+}
+
+/************************************************************************************************************** ,*/
+
+
+
+
+@media only screen and (min-width:360px) and (max-width:375px){
+.gifYap2{
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}.gif2{
+        margin-bottom: 100px !important;
+        width:170px !important;
+}
+
+.gifYap{
+      
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}
+
+.gif{
+        margin-bottom: 10px !important;
+        width:230px !important;
+}
+}
+/*********************************************************************************************************************/
+
+
+@media only screen and (max-width: 600px) {
+.container-fluid{
+        overflow: hidden;
+}
+.mainPanel{
+        background-image: url(../img/poster.jpg);
+        background-position:center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 65vh;
+}
+.icerik::before{
+        content: "" !important;
+        position: absolute !important;
+        background-color: rgb(14, 12, 12) !important;
+        width: 100% !important;
+        height: 70% !important;
+        z-index: 1 !important;
+        opacity: 0.7;
+}
+.mainText{
+        font-size: 4.5vh !important;
+}
+.subText{
+        font-size: 2.5vh !important;
+}
+.logo{
+        width:80% !important; 
+}
+.tvPanelOne{
+        padding: 0px !important;
+}
+.tvText{
+        font-size: 4vh !important;
+        text-align: center !important;
+         font-family: "poppins";        
+}
+.tvText2{
+           font-size: 3vh !important;
+         text-align: center !important;
+        padding: 0px !important;
+       
+        margin-top: 20px !important;
+}
+
+.gifYap{
+      
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}
+
+.gif{
+        margin-bottom: 10px !important;
+        width:280px;
+}
+
+.phoneİmg{
+        width: 100% !important;
+}
+
+.phoneTextCont{
+        margin:0px !important;
+}
+.mobilePanel{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-around !important;
+        align-items: end !important;
+}
+.mobileTvText{
+        font-family: "poppins";
+        font-size: 3vh !important;
+        text-align: center !important;
+}
+
+.mobileTvText2{
+        font-size: 2vh;
+        text-align: center !important;
+}
+.gifYap2{
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}.gif2{
+        margin-bottom: 100px !important;
+        width:220px;
+}
+
+.mobilePriceText{
+        font-size: 2.2vh !important;
+        text-align: center;
+}
+
+
+.childText{
+        font-size:2.4vh !important;
+        text-align: center;
+}
+.childComponent{
+        padding: 0vh !important;
+}
+
+}
+
+/*********************************************************************************************************************/
+
+
+
+ 
+@media (min-width:736px) and (max-width:1031px){
+.tabletMain{
+        margin-top: 0px !important;
+}
+
+.tvText{
+        text-align: center !important;
+}
+.tvText2{
+        text-align: center !important;
+        margin-top: 5vh !important;
+}
+
+
+.gif{
+     
+  width: 60% !important;
+}
+.device{
+        width: 75% !important;
+}
+
+}
+
+
+
+
+
+@media (min-width:667px) and (max-width:812px){
+.tabletMain{
+        margin-top: 0px !important;
+}
+
+.tvText{
+        text-align: left !important;
+      
+}
+.tvText2{
+        text-align: left !important;
+        margin-top: 5vh !important;
+        font-size: 4vh !important;
+}
+
+.tvPanelTwo{
+        width: 100% !important;
+        margin-top: 0px !important;
+}
+.gif{
+     
+  width: 65% !important;
+}
+.device{
+        width: 100% !important;
+}
+
+}
+
+
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+.tvText{
+        font-size: 5.2vh !important;
+}
+
+.gif{
+        margin-bottom: 10px !important;
+        max-width: 390px !important;
+}
+
+.gifYap2{
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}.gif2{
+        margin-bottom: 100px !important;
+        width:320px !important;
+}
+}
+
+
+
+@media (min-width: 1700px)  {
+        .tvText{
+        font-size: 5.2vh !important;
+}
+
+.gif{
+        margin-bottom: 10px !important;
+        max-width: 470px !important;
+}
+
+.gifYap2{
+        display: flex; 
+        justify-content: center !important;
+        align-items: center !important;
+}.gif2{
+        margin-bottom: 100px !important;
+        width:400px !important;
+}
+}

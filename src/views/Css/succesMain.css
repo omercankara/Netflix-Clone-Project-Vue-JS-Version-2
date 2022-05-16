@@ -1,0 +1,26 @@
+.control-panel{
+        z-index: 999 !important;
+}
+        #menuler{
+                display:  inline !important;
+                padding: 5vh !important;
+                transition: 1s ease;
+        } 
+
+        #menuler li{
+                display: inline;
+                margin-top: 2vh !important;
+                padding: 2vh !important;
+        }
+
+
+        #controlMenu{
+                display: block;
+        }
+        .sticky{
+                z-index: 999 !important;
+                 position: sticky;
+                  top: 0;
+                 padding: 50px;
+                font-size: 20px;
+        }

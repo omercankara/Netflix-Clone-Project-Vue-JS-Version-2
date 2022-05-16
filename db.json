@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "mail": "can",
+      "password": "ce12974bd4867fe1f9408fe803287545fc25bb95",
+      "id": 1
+    },
+    {
+      "mail": "can",
+      "password": "369d6c8e11a998af48fcb8dec968c9515ea8fd53",
+      "id": 2
+    },
+    {
+      "mail": "can",
+      "password": "ce12974bd4867fe1f9408fe803287545fc25bb95",
+      "id": 3
+    },
+    {
+      "mail": "can",
+      "password": "be30cb5d583a47363715f2264da5f9f3f15455a5",
+      "id": 4
+    },
+    {
+      "mail": "can",
+      "password": "be30cb5d583a47363715f2264da5f9f3f15455a5",
+      "id": 5
+    },
+    {
+      "mail": "can",
+      "password": "369d6c8e11a998af48fcb8dec968c9515ea8fd53",
+      "id": 6
+    },
+    {
+      "mail": "can",
+      "password": "369d6c8e11a998af48fcb8dec968c9515ea8fd53",
+      "id": 7
+    }
+  ],
+  "filmList": []
+}

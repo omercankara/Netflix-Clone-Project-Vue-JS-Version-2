@@ -1,0 +1,79 @@
+     .mainPanel{
+                background-image: url(../img/loginpage.jpg);
+                background-size: cover;
+                background-position:center;
+                background-repeat: no-repeat;
+                height: 100vh;
+        }
+        .mainPanel::before{
+                background-color: black !important;
+                opacity: 0.6;
+                content: "";
+                position: absolute;
+                height: 100vh !important;
+                width: 100%;
+        }
+        .loginPanel::before{
+                background-color: black !important;
+                opacity: 0.8;
+                content: "";
+                position: absolute;
+                height: 50vh !important;
+                width: 100%;
+        }
+
+        .loginInput{
+                background: none;
+                border:none;
+                outline:none;
+                background-color:rgba(168, 163, 163, 0.377);
+                transition:  1s ease
+        }
+        .loginInput:focus{
+                border-radius: 25px;
+                background-color:rgba(255, 255, 255, 0.952);
+                   
+        }
+
+
+
+
+        @media only screen and (min-width:360px) and (max-width:414px){
+     .mainPanel{
+               background-color: black !important;
+                background-image: none !important;
+                height: 100vh;
+        }
+        .mobile-panel {
+                padding: 0vh !important;
+        }
+
+        .logo{
+                width: 40% !important;
+        }
+      
+
+}
+
+        @media only screen and (min-width:640px) and (max-width:740px){
+                .mainPanel{
+               background-color: black !important;
+                background-image: none !important;
+                height: 100vh;
+        }
+        .mobile-panel {
+                padding: 0vh !important;
+        }
+
+        .logo{
+                width: 20% !important;
+        }
+  .main-logo{
+                position: static !important;
+        }
+        .logo-section{
+                background-color: black !important;
+        }
+
+    
+        }

@@ -1,0 +1,16 @@
+        .controlPanel{
+                position: absolute !important;
+                justify-content: space-around !important;
+                background-color: #141414 !important;
+              opacity: 0 !important;
+                transition: 1s ease;
+        }
+        .page:hover +  .controlPanel {
+                  opacity: 1 !important;
+        }
+        .controlPanel:hover{
+                opacity: 1 !important;
+        }
+        .list-panel{
+                border-radius: 200px !important;
+        }
