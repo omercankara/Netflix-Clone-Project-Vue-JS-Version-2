@@ -3,15 +3,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import store from "../store/index"
 import loginPage from '../components/loginPage.vue'
 import home from "../components/homePage.vue"
-import regPage from "../components/regPage.vue"
+import createAccount from "../components/createAccount.vue"
 import accountPage from "../components/accountPage.vue"
 import accountForm from "../components/accountForm.vue"
 import local from "../components/localPage.vue"
-
 import planForm from "../components/planForm.vue"
 import successHeader from "../views/successHeader.vue"
 import loginSuccess from "../views/loginSuccess"
-import modals from "../views/modalsView"
+
 import list from "../views/listPage.vue"
 
 const routes = [
@@ -30,11 +29,7 @@ const routes = [
                 name:'giris',
                 component:loginSuccess
         },
-        {
-                path:'/modals',
-                name:'modals',
-                component:modals
-        },
+        
 
         {
                 path: '/planform',
@@ -55,9 +50,9 @@ const routes = [
         },
 
         {
-                path: '/regPage',
-                name: 'regPage',
-                component: regPage
+                path: '/createAccount',
+                name: 'createAccount',
+                component: createAccount
         },
 
         {

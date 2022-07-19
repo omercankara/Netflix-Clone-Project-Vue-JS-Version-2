@@ -1,7 +1,7 @@
 <template>
-      
-        <accountPage/>
-        <footerComp/>
+
+  <accountPage />
+  <footerComp />
 </template>
 
 
@@ -14,11 +14,11 @@ import accountPage from "./accountPage.vue"
 //import headerComp from "./headerComp.vue"
 
 export default {
-        components:{
-                footerComp,
-                accountPage,
-               // headerComp
-        }
+  components: {
+    footerComp,
+    accountPage,
+    // headerComp
+  }
 }
 </script>
 
